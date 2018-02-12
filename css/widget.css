@@ -1,0 +1,17 @@
+/* This stylesheet is used to style the public view of the widget. */
+
+
+.item {
+  border-bottom: 1px solid darkgrey;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: 2em;
+  grid-gap: .5em;
+}
+
+.title, .header, .item {
+  text-align: center;
+}
