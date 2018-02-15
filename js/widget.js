@@ -3,7 +3,7 @@
 	$(function() {
 		$(document).ready(function() {
 			$.ajax({
-				url: "https://api.parsely.com/v2/analytics/posts?apikey=texasmonthly.com&secret=J44znyy0vsL7tsYzacxIjtVZhQA4uT8kQqN2ZK72Sko&page=1&limit=10&sort=views&period_start=2d",
+				url: "https://api.parsely.com/v2/analytics/posts?//key removed
 				success: function(result) {
 
 					var container = $('.data-container');
