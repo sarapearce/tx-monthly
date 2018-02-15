@@ -3,7 +3,7 @@
 	$(function() {
 		$(document).ready(function() {
 			$.ajax({
-				url: "https://api.parsely.com/v2/analytics/posts?//key removed
+				url: "https://api.parsely.com/v2/analytics/posts?
 				success: function(result) {
 
 					var container = $('.data-container');
